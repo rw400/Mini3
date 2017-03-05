@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<head>
+
+	<!-- display webpage title and refer to custom styles from css file-->
+	<title> Personalize Portfilio </title>
+	<link rel = "stylesheet" type="text/css"
+	href="css/style.css"/>
+
+	<!-- creating headers and order in html -->
+	<h1> Ronnie Wong </h1>
+	<h2> Testing Html, CSS, JavaScript </h2>
+	
+</head>
+
+<!--
+<div class="menu">
+	<button class="menu-btn">MENU</button>
+	<div class="link-content">
+		<a href="#">Link 1</a>
+		<a href="#">Link 2</a>
+		<a href="#">Link 3</a>
+	</div>
+</div>
+-->
+
+
+<body>
+	
+	<ul>
+		
+		<!-- create menu objects in a list 
+		each with the corresponding link when clicked -->
+		<<li><a href="file:///F:/Documents_F/NPower_E/Mini%20Project/Mini%203%20html/Info.html">Home Info</a></li>
+		<li><a href="file:///F:/Documents_F/NPower_E/Mini%20Project/Mini%203%20html/portfolio.html">Testing</a></li>
+		<li class="dropdown">
+		<a href="javascript:void(0)" class="dropbtn">Links</a>
+			<div class="dropdown-content">
+		  <a href="file:///F:/Documents_F/NPower_E/Mini%20Project/Mini%203%20html/aboutme.html">Interests</a>
+		  <a href="file:///F:/Documents_F/NPower_E/Mini%20Project/Mini%203%20html/contact.html">Contact Form</a>
+		  <a href="https://github.com/rw400/">GitHub</a>
+		</div>
+		</li>
+	</ul>
+	
+	<!--create unique ids for paragraphs -->
+	<p id='demo'> This is the info about myself </p>
+	<button type="button" onclick="document.getElementById('demo').style.fontSize = '15px'">Click Me!
+	</button>
+	
+	
+	<p id="demo1">JavaScript can change HTML content.</p>
+	<!-- create button that changes text when clicked-->
+	<button type="button1" onclick="document.getElementById('demo1').innerHTML = 'Hello JavaScript!'">text change
+	</button>	
+	
+	
+	
+	<!--create a button that uses behaviour from javascript -->
+	<button type="button1" onclick="changeFunction()">Try changing
+	</button>
+	
+<script src="js/script.js"></script>
+</body>
+	
+
+
+
+</html>
